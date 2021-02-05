@@ -1,11 +1,11 @@
-<?php get_header(head);?>
-<?php get_header();?>
+<?php get_header(head); ?>
+<?php get_header(); ?>
 
 
 <section class="title_nav container">
   <h2><?php the_title(); ?></h2>
-  <?php 
-  if(is_page('room')) :?>
+  <?php
+  if (is_page('room')) : ?>
     <p>SAMPLEリゾートの広々とした快適な客室をぜひご利用ください。</p>
 
     <div class="title_name d-flex justify-content-around border-top">
@@ -14,44 +14,44 @@
       <a class="btn">お部屋A</a>
       <a class="btn">お部屋B</a>
     </div>
+</section>
+
+<?php elseif (is_page('activity')) : ?>
+
+  <p>SAMPLEリゾートの素敵な体験をぜひご利用ください。</p>
+
+  <div class="title_name d-flex justify-content-around border-top">
+    <a class="btn">スキューバダイビング</a>
+    <a class="btn">キャニオニング</a>
+    <a class="btn">体験A</a>
+    <a class="btn">体験B</a>
+  </div>
   </section>
 
-  <?php elseif(is_page('activity')): ?>
+  <section class="activity_top">
+    <video playsinline autoplay muted loop>
+      <source src="<?php echo get_template_directory_uri(); ?>/assets/movie/activity.mp4" type="video/mp4">
+    </video>
+  </section>
 
-      <p>SAMPLEリゾートの素敵な体験をぜひご利用ください。</p>
+<?php elseif (is_page('restaurant')) : ?>
 
-      <div class="title_name d-flex justify-content-around border-top">
-        <a class="btn">スキューバダイビング</a>
-        <a class="btn">キャニオニング</a>
-        <a class="btn">体験A</a>
-        <a class="btn">体験B</a>
-      </div>
-    </section>
-    
-    <section class="activity_top">
-      <video playsinline autoplay muted loop>
-        <source src="<?php echo get_template_directory_uri(); ?>/assets/movie/activity.mp4" type="video/mp4">
-      </video>
-    </section>
+  <section class="title_nav container">
+    <p>SAMPLEリゾートの素敵なお食事をぜひご利用ください。</p>
 
-  <?php elseif(is_page('restaurant')): ?>
+    <div class="title_name d-flex justify-content-around border-top">
+      <a class="btn">ご朝食</a>
+      <a class="btn">ご夕食</a>
+      <a class="btn">カフェ</a>
+      <a class="btn">お食事A</a>
+    </div>
+  </section>
+  <section class="food_list">
+    <div class="top_img">
+      <img src="<?php echo get_template_directory_uri(); ?>/assets/img/restaurant/restaurant_top.jpg" alt="">
+    </div>
 
-    <section class="title_nav container">
-      <p>SAMPLEリゾートの素敵なお食事をぜひご利用ください。</p>
-
-      <div class="title_name d-flex justify-content-around border-top">
-        <a class="btn">ご朝食</a>
-        <a class="btn">ご夕食</a>
-        <a class="btn">カフェ</a>
-        <a class="btn">お食事A</a>
-      </div>
-    </section>
-    <section class="food_list">
-      <div class="top_img">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/restaurant/restaurant_top.jpg" alt="">
-      </div>
-
-  <?php elseif(is_page('contact')): ?>
+  <?php elseif (is_page('contact')) : ?>
 
     <section class="contact container">
       <form class="contact_form row">
@@ -84,23 +84,24 @@
         </div>
         <div class="botton">
           <p><a href="" class="border">送信する</a></p>
-        </div>  
+        </div>
       </form>
     </section>
 
 
 
-  <?php else: ?>
+  <?php else : ?>
 
 
 
   <?php endif; ?>
 
-    <?php if(have_posts()): while(have_posts()): the_post();?>
+  <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
 
-<?php the_content();?>
+      <?php the_content(); ?>
 
 
-    <?php endwhile; endif; ?>
-<?php get_footer(); ?>
+  <?php endwhile;
+  endif; ?>
+  <?php get_footer(); ?>

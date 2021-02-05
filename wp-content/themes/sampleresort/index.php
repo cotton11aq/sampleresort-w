@@ -1,7 +1,7 @@
-<?php get_header(head);?>
+<?php get_header(head); ?>
 
 <body <?php body_class(); ?>>
-<?php wp_body_open(); ?>
+  <?php wp_body_open(); ?>
   <header class="para1">
     <div class="logo">
       <p>SampleResort</p>
@@ -18,7 +18,7 @@
 
   <section class="about-wrap">
     <div class="about">
-    <h2>特別な、ひとときを。</h2>
+      <h2>特別な、ひとときを。</h2>
       <p>本土からフェリーで10分のところにある、小さな島の、小さなリゾートホテル。</br>目の前には広大な海が広がり、涼しい風が吹き、ヤシの木が気持ちよさそうに揺れています。</br>一歩足を踏み入れた瞬間からいつもの日常とは違う、特別なひとときをお過ごしください。</p>
     </div>
     <div class="fram">
@@ -32,19 +32,20 @@
       <p>お知らせ</p>
     </div>
     <table id="news_list" class="table table-borderless">
-    
-    <?php if(have_posts()): while(have_posts()): the_post();?> 
-  
-<?php get_template_part('template-parts/loop','news'); ?>
 
-<?php endwhile; endif; ?>
+      <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+
+          <?php get_template_part('template-parts/loop', 'news'); ?>
+
+      <?php endwhile;
+      endif; ?>
     </table>
-      
-<div class="botton">
+
+    <div class="botton">
       <p><a href="<?php echo home_url(); ?>/category/news/" class="border">VIEW MORE</a></p>
     </div>
   </section>
 
   <div class="picture"></div>
 
-<?php get_footer(); ?>
+  <?php get_footer(); ?>

@@ -10,17 +10,24 @@ body {
   font-family: “Yu Gothic”, “游ゴシック”, YuGothic, “游ゴシック体”, sans-serif;
   font-weight: 500;
   color: #333;
-  line-height: 2.0;
+  line-height: 2;
   letter-spacing: 0.1em;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN','American Typewriter','ＭＳ 明朝', 'MS Mincho',sans-serif,'free';
+  font-family: "ヒラギノ明朝 ProN", "Hiragino Mincho ProN",
+    "American Typewriter", "ＭＳ 明朝", "MS Mincho", sans-serif, "free";
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   margin: 0;
   padding: 0;
 }
@@ -39,7 +46,11 @@ table {
   border-spacing: 0;
 }
 
-ul, li, dl, dt, dd {
+ul,
+li,
+dl,
+dt,
+dd {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -47,14 +58,14 @@ ul, li, dl, dt, dd {
 
 a {
   text-decoration: none;
-  -webkit-transition: all .6s ease;
-  transition: all .6s ease;
+  -webkit-transition: all 0.6s ease;
+  transition: all 0.6s ease;
   color: #000;
 }
 
 a:hover {
-  -webkit-transition: all .6s ease;
-  transition: all .6s ease;
+  -webkit-transition: all 0.6s ease;
+  transition: all 0.6s ease;
   opacity: 0.6;
 }
 

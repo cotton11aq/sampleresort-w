@@ -5,7 +5,7 @@
   background-image: url(../img/top.jpg);
   background-size: cover;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
@@ -18,12 +18,12 @@
   top: 40%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .para1 .logo p {
   font-size: 4rem;
-  font-family: 'Zapfino','Trebuchet MS',sans-serif;
+  font-family: "Zapfino", "Trebuchet MS", sans-serif;
 }
 
 .para1 ul {
@@ -34,11 +34,11 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .para1 ul li {
@@ -67,13 +67,14 @@
   background: #fffff9;
   display: block;
   -webkit-transform-origin: right top;
-          transform-origin: right top;
+  transform-origin: right top;
   -webkit-transform: scale(0, 1);
-          transform: scale(0, 1);
+  transform: scale(0, 1);
   -webkit-transition: -webkit-transform 0.4s cubic-bezier(1, 0, 0, 1);
   transition: -webkit-transform 0.4s cubic-bezier(1, 0, 0, 1);
   transition: transform 0.4s cubic-bezier(1, 0, 0, 1);
-  transition: transform 0.4s cubic-bezier(1, 0, 0, 1), -webkit-transform 0.4s cubic-bezier(1, 0, 0, 1);
+  transition: transform 0.4s cubic-bezier(1, 0, 0, 1),
+    -webkit-transform 0.4s cubic-bezier(1, 0, 0, 1);
 }
 
 .para1 ul li .btn:hover {
@@ -82,17 +83,17 @@
 
 .para1 ul li .btn:hover::before {
   -webkit-transform-origin: left top;
-          transform-origin: left top;
+  transform-origin: left top;
   -webkit-transform: scale(1, 1);
-          transform: scale(1, 1);
+  transform: scale(1, 1);
 }
 
 @media screen and (max-width: 940px) {
   .para1 ul {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
 }
 
@@ -116,7 +117,7 @@
   width: 100%;
   height: 800px;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 @media screen and (max-width: 760px) {
@@ -188,10 +189,11 @@
 }
 
 .menu ul a:hover {
-  -webkit-box-shadow: 0 0 30px 10px rgba(0, 0, 0, 0.15), 0 0 5px rgba(0, 0, 0, 0.1);
-          box-shadow: 0 0 30px 10px rgba(0, 0, 0, 0.15), 0 0 5px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 0 30px 10px rgba(0, 0, 0, 0.15),
+    0 0 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 30px 10px rgba(0, 0, 0, 0.15), 0 0 5px rgba(0, 0, 0, 0.1);
   -webkit-transform: translateY(-4px);
-          transform: translateY(-4px);
+  transform: translateY(-4px);
 }
 
 .menu ul a:hover .botton {
@@ -205,8 +207,8 @@
 .menu ul li .menu_title {
   border-bottom: solid 0.8px #a9a9a9;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   margin: 20px 0;
 }
 
@@ -214,7 +216,7 @@
   width: 100%;
   height: 300px;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .menu ul li .botton {
@@ -224,8 +226,8 @@
   display: inline-block;
   margin: 30px 0;
   padding: 20px 40px;
-  -webkit-transition: all .6s ease;
-  transition: all .6s ease;
+  -webkit-transition: all 0.6s ease;
+  transition: all 0.6s ease;
 }
 
 .menu ul li .botton p {
@@ -284,8 +286,8 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .sns ul li {
@@ -309,16 +311,16 @@ footer p {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   padding-top: 20px;
 }
 
 .header_wrapper .header_title h2 a {
-  font-family: 'Zapfino','Trebuchet MS',sans-serif;
+  font-family: "Zapfino", "Trebuchet MS", sans-serif;
   font-size: 1.5rem;
   color: #fffff9;
   -webkit-transition: all 0.4s ease;
@@ -331,8 +333,8 @@ footer p {
 
 .header_wrapper .header_menu {
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .header_wrapper .header_menu ul li {
@@ -376,17 +378,17 @@ footer p {
   visibility: hidden;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   opacity: 0;
-  -webkit-transition: opacity .6s ease, visibility .6s ease;
-  transition: opacity .6s ease, visibility .6s ease;
+  -webkit-transition: opacity 0.6s ease, visibility 0.6s ease;
+  transition: opacity 0.6s ease, visibility 0.6s ease;
 }
 
 #gloval_nav a {
@@ -405,36 +407,37 @@ footer p {
   opacity: 0;
   margin-bottom: 20px;
   -webkit-transform: translateX(200px);
-          transform: translateX(200px);
-  -webkit-transition: opacity .4s ease, -webkit-transform .6s ease;
-  transition: opacity .4s ease, -webkit-transform .6s ease;
-  transition: transform .6s ease, opacity .4s ease;
-  transition: transform .6s ease, opacity .4s ease, -webkit-transform .6s ease;
+  transform: translateX(200px);
+  -webkit-transition: opacity 0.4s ease, -webkit-transform 0.6s ease;
+  transition: opacity 0.4s ease, -webkit-transform 0.6s ease;
+  transition: transform 0.6s ease, opacity 0.4s ease;
+  transition: transform 0.6s ease, opacity 0.4s ease,
+    -webkit-transform 0.6s ease;
 }
 
 #gloval_nav ul li:nth-child(2) {
-  -webkit-transition-delay: .15s;
-          transition-delay: .15s;
+  -webkit-transition-delay: 0.15s;
+  transition-delay: 0.15s;
 }
 
 #gloval_nav ul li:nth-child(3) {
-  -webkit-transition-delay: .3s;
-          transition-delay: .3s;
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
 }
 
 #gloval_nav ul li:nth-child(4) {
-  -webkit-transition-delay: .45s;
-          transition-delay: .45s;
+  -webkit-transition-delay: 0.45s;
+  transition-delay: 0.45s;
 }
 
 #gloval_nav ul li:nth-child(5) {
-  -webkit-transition-delay: .6s;
-          transition-delay: .6s;
+  -webkit-transition-delay: 0.6s;
+  transition-delay: 0.6s;
 }
 
 #gloval_nav ul li:nth-child(6) {
-  -webkit-transition-delay: .75s;
-          transition-delay: .75s;
+  -webkit-transition-delay: 0.75s;
+  transition-delay: 0.75s;
 }
 
 .open {
@@ -449,11 +452,11 @@ footer p {
 .open #gloval_nav li {
   opacity: 1;
   -webkit-transform: translateX(0);
-          transform: translateX(0);
-  -webkit-transition: opacity .9s ease, -webkit-transform 1s ease;
-  transition: opacity .9s ease, -webkit-transform 1s ease;
-  transition: transform 1s ease, opacity .9s ease;
-  transition: transform 1s ease, opacity .9s ease, -webkit-transform 1s ease;
+  transform: translateX(0);
+  -webkit-transition: opacity 0.9s ease, -webkit-transform 1s ease;
+  transition: opacity 0.9s ease, -webkit-transform 1s ease;
+  transition: transform 1s ease, opacity 0.9s ease;
+  transition: transform 1s ease, opacity 0.9s ease, -webkit-transform 1s ease;
 }
 
 @media screen and (max-width: 1250px) {
@@ -480,10 +483,11 @@ footer p {
     display: inline-block;
     background: #fffff9;
     position: absolute;
-    -webkit-transition: top .5s ease, -webkit-transform .4s ease-in-out;
-    transition: top .5s ease, -webkit-transform .4s ease-in-out;
-    transition: transform .4s ease-in-out, top .5s ease;
-    transition: transform .4s ease-in-out, top .5s ease, -webkit-transform .4s ease-in-out;
+    -webkit-transition: top 0.5s ease, -webkit-transform 0.4s ease-in-out;
+    transition: top 0.5s ease, -webkit-transform 0.4s ease-in-out;
+    transition: transform 0.4s ease-in-out, top 0.5s ease;
+    transition: transform 0.4s ease-in-out, top 0.5s ease,
+      -webkit-transform 0.4s ease-in-out;
   }
   #menu_icon div span:nth-child(1) {
     top: 0;
@@ -503,7 +507,7 @@ footer p {
   .open #menu_icon div span:nth-child(1) {
     top: 15px;
     -webkit-transform: rotate(45deg);
-            transform: rotate(45deg);
+    transform: rotate(45deg);
   }
   .open #menu_icon div span:nth-child(2) {
     top: 15px;
@@ -513,7 +517,7 @@ footer p {
   .open #menu_icon div span:nth-child(3) {
     top: 15px;
     -webkit-transform: rotate(-45deg);
-            transform: rotate(-45deg);
+    transform: rotate(-45deg);
   }
   .open #menu_icon div:hover span:nth-child(1) {
     top: 15px;
@@ -542,8 +546,8 @@ footer p {
   .title_name {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
 }
 
@@ -557,8 +561,8 @@ footer p {
   bottom: 40px;
   right: 0;
   cursor: pointer;
-  -webkit-transition: all .5s ease;
-  transition: all .5s ease;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
 
 #page_top:hover {
@@ -591,7 +595,7 @@ footer p {
 }
 
 .room_item .room_title::before {
-  content: '';
+  content: "";
   background-color: rgba(0, 0, 0, 0.4);
   position: absolute;
   top: 0;
@@ -606,7 +610,7 @@ footer p {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .room_item .room_exam {
@@ -614,14 +618,16 @@ footer p {
   margin: 130px auto;
 }
 
-.room_item #slideshow_hotel, .room_item #slideshow_villa {
+.room_item #slideshow_hotel,
+.room_item #slideshow_villa {
   position: relative;
   width: 600px;
   height: 500px;
   margin: 50px auto;
 }
 
-.room_item #slideshow_hotel img, .room_item #slideshow_villa img {
+.room_item #slideshow_hotel img,
+.room_item #slideshow_villa img {
   width: 600px;
   height: 600px;
   position: absolute;
@@ -630,31 +636,36 @@ footer p {
   z-index: 8;
   opacity: 0;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   border-radius: 50%;
 }
 
-.room_item #slideshow_hotel .active, .room_item #slideshow_villa .active {
+.room_item #slideshow_hotel .active,
+.room_item #slideshow_villa .active {
   z-index: 10;
   opacity: 1;
 }
 
-.room_item #slideshow_hotel .last_active, .room_item #slideshow_villa .last_active {
+.room_item #slideshow_hotel .last_active,
+.room_item #slideshow_villa .last_active {
   z-index: 9;
 }
 
 @media screen and (max-width: 760px) {
-  .hotel, .villa {
+  .hotel,
+  .villa {
     width: 100%;
     height: 300px !important;
   }
-  #slideshow_hotel, #slideshow_villa {
+  #slideshow_hotel,
+  #slideshow_villa {
     position: relative;
     width: 300px !important;
     height: 300px !important;
     margin: 50px auto;
   }
-  #slideshow_hotel img, #slideshow_villa img {
+  #slideshow_hotel img,
+  #slideshow_villa img {
     width: 300px !important;
     height: 300px !important;
     position: absolute;
@@ -663,7 +674,7 @@ footer p {
     z-index: 8;
     opacity: 0;
     -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
     border-radius: 50%;
   }
 }
@@ -684,7 +695,7 @@ footer p {
   width: 60%;
   height: 70%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   position: absolute;
   right: 0;
 }
@@ -704,7 +715,7 @@ footer p {
   width: 60%;
   height: 70%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .food_list .container .food_item p {
@@ -721,8 +732,8 @@ footer p {
 .food_list .container .food_title {
   border-bottom: solid 0.8px #a9a9a9;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   margin: 20px 0;
   text-align: center;
   padding-bottom: 10px;
@@ -731,7 +742,7 @@ footer p {
 .fadein {
   opacity: 0.1;
   -webkit-transform: translate(0, 50px);
-          transform: translate(0, 50px);
+  transform: translate(0, 50px);
   -webkit-transition: all 500ms;
   transition: all 500ms;
 }
@@ -739,7 +750,7 @@ footer p {
 .fadein.scrollin {
   opacity: 1;
   -webkit-transform: translate(0, 0);
-          transform: translate(0, 0);
+  transform: translate(0, 0);
 }
 
 @media screen and (max-width: 760px) {
@@ -796,8 +807,8 @@ video {
 
 .activity_list .activity_item a li {
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .activity_list .activity_item .activity_item_top {
@@ -838,9 +849,10 @@ video {
   outline: none;
 }
 
-.contact_form .input_text:focus + .label, .contact_form .input_text.not-empty + .label {
+.contact_form .input_text:focus + .label,
+.contact_form .input_text.not-empty + .label {
   -webkit-transform: translateY(-24px);
-          transform: translateY(-24px);
+  transform: translateY(-24px);
 }
 
 .contact_form .label {
@@ -852,10 +864,10 @@ video {
   font-weight: 400;
   color: #888;
   cursor: text;
-  -webkit-transition: -webkit-transform .2s ease-in-out;
-  transition: -webkit-transform .2s ease-in-out;
-  transition: transform .2s ease-in-out;
-  transition: transform .2s ease-in-out, -webkit-transform .2s ease-in-out;
+  -webkit-transition: -webkit-transform 0.2s ease-in-out;
+  transition: -webkit-transform 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
 }
 
 .contact_form .botton {
@@ -887,10 +899,10 @@ video {
   font-size: 18px;
   color: #888;
   cursor: text;
-  -webkit-transition: -webkit-transform .2s ease-in-out;
-  transition: -webkit-transform .2s ease-in-out;
-  transition: transform .2s ease-in-out;
-  transition: transform .2s ease-in-out, -webkit-transform .2s ease-in-out;
+  -webkit-transition: -webkit-transform 0.2s ease-in-out;
+  transition: -webkit-transform 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
 }
 
 #message:focus {
@@ -916,8 +928,8 @@ iframe {
   padding-bottom: 10px;
   border-bottom: solid 0.8px #a9a9a9;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   margin: 20px 0;
 }
 
@@ -944,17 +956,24 @@ body {
   font-family: “Yu Gothic”, “游ゴシック”, YuGothic, “游ゴシック体”, sans-serif;
   font-weight: 500;
   color: #333;
-  line-height: 2.0;
+  line-height: 2;
   letter-spacing: 0.1em;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN','American Typewriter','ＭＳ 明朝', 'MS Mincho',sans-serif,'free';
+  font-family: "ヒラギノ明朝 ProN", "Hiragino Mincho ProN",
+    "American Typewriter", "ＭＳ 明朝", "MS Mincho", sans-serif, "free";
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   margin: 0;
   padding: 0;
 }
@@ -973,7 +992,11 @@ table {
   border-spacing: 0;
 }
 
-ul, li, dl, dt, dd {
+ul,
+li,
+dl,
+dt,
+dd {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -981,14 +1004,14 @@ ul, li, dl, dt, dd {
 
 a {
   text-decoration: none;
-  -webkit-transition: all .6s ease;
-  transition: all .6s ease;
+  -webkit-transition: all 0.6s ease;
+  transition: all 0.6s ease;
   color: #000;
 }
 
 a:hover {
-  -webkit-transition: all .6s ease;
-  transition: all .6s ease;
+  -webkit-transition: all 0.6s ease;
+  transition: all 0.6s ease;
   opacity: 0.6;
 }
 
